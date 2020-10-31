@@ -32,6 +32,7 @@ namespace Client_Musafak_20180140093
             IMatematika obj = objChannel.CreateChannel();
             double hasilTambah = obj.Tambah(1, 2);
             Console.WriteLine("1 + 2 = " + hasilTambah);
+            label6.Text = "1 + 2 =" + hasilTambah;
             double hasilKurang = obj.Kurang(3, 2);
             Console.WriteLine("3 - 2 = " + hasilKurang);
             double hasilKali = obj.Kali(2, 2);
